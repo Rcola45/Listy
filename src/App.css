@@ -31,3 +31,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.List{
+  height: 40px;
+}
+
+.List-title{
+  display: inline;
+}
+
+.List-add{
+  display: inline-block;
+}
+
+.List-form{
+  display:inline-block;
+}
+
+

@@ -54,7 +54,7 @@ class App extends Component {
             {this.state.lists.map((title, i) => <List key={i} title={title}/>)}
           </div>
           <div>
-            <Button onClick={this.showHideListCreate}>Create List</Button>
+            <Button bsStyle={'primary'} onClick={this.showHideListCreate}>Create List</Button>
             { this.state.showAddList ? <ListForm /> : null }
           </div>
       </div>

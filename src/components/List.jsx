@@ -13,10 +13,10 @@ class List extends Component {
 
   render() {
     return(
-        <div>
-          <div>{this.state.title}</div>
+        <div className={"List"}>
+          <div className={"List-title"}>{this.state.title}</div>
           {this.state.listItems.map((comp, i) => React.createElement(comp, { key: i}))}
-          <Button>Add Item</Button>
+          <Button className="List-add pull-right">Add Item</Button>
         </div>
     )
   }

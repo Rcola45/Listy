@@ -25,7 +25,7 @@ class ListItem extends Component {
 
   render() {
     return(
-        <div>
+        <div className={"List-form"}>
           <FormGroup>
             <InputGroup>
               <FormControl
