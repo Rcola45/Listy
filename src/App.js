@@ -58,10 +58,6 @@ class App extends Component {
             { this.state.showAddList ? <ListForm /> : null }
           </div>
         </div>
-        <div>
-          <p>Application running in {process.env.NODE_ENV} mode</p>
-          <p>Secret code is {process.env.REACT_APP_SECRET_CODE}</p>
-        </div>
       </div>
     );
   }
